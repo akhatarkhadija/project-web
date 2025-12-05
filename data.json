@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "title": "Les bases du langage C",
+    "description": "Variables, boucles, conditions, pointeurs… tout pour bien démarrer en C.",
+    "language": "c",
+    "level": "beginner",
+    "chapters": ["Introduction au C", "Variables et types", "Conditions if/else", "Boucles for/while", "Fonctions", "Pointeurs", "Tableaux et chaînes"]
+  },
+  {
+    "id": 2,
+    "title": "Programmation C intermédiaire",
+    "description": "Structures, allocation dynamique, fichiers et bonnes pratiques.",
+    "language": "c",
+    "level": "intermediate",
+    "chapters": ["Structures et unions", "Allocation dynamique", "Fichiers binaires/textes", "Préprocesseur", "Makefile simple", "Bonnes pratiques"]
+  },
+  {
+    "id": 3,
+    "title": "Structures de données en C",
+    "description": "Listes chaînées, piles, files, arbres… les classiques en C pur.",
+    "language": "c",
+    "level": "intermediate",
+    "chapters": ["Listes chaînées", "Piles et files", "Arbres binaires", "Arbres AVL", "Tables de hachage", "Complexité algorithmique"]
+  },
+  {
+    "id": 4,
+    "title": "Python pour débutants",
+    "description": "Apprenez Python de zéro avec des exemples simples et concrets.",
+    "language": "python",
+    "level": "beginner",
+    "chapters": ["Installation & premiers pas", "Variables et types", "Listes & tuples", "Dictionnaires", "Conditions", "Boucles", "Fonctions", "Modules"]
+  },
+  {
+    "id": 5,
+    "title": "Python orienté objet",
+    "description": "Classes, héritage, polymorphisme et tout ce qu’il faut savoir sur la POO en Python.",
+    "language": "python",
+    "level": "intermediate",
+    "chapters": ["Classes et objets", "Méthodes spéciales", "Héritage", "Polymorphisme", "Properties & decorators", "Design patterns simples"]
+  },
+  {
+    "id": 6,
+    "title": "Python avancé",
+    "description": "Décorateurs, générateurs, métaprogrammation et performances.",
+    "language": "python",
+    "level": "advanced",
+    "chapters": ["Décorateurs", "Générateurs & itérateurs", "Context managers", "Metaclasses", "Multithreading & multiprocessing", "Optimisation"]
+  },
+  {
+    "id": 7,
+    "title": "Data Science avec Python",
+    "description": "Pandas, NumPy, Matplotlib et les bases du machine learning.",
+    "language": "python",
+    "level": "intermediate",
+    "chapters": ["NumPy", "Pandas", "Visualisation avec Matplotlib/Seaborn", "Nettoyage de données", "Premiers modèles scikit-learn"]
+  },
+  {
+    "id": 8,
+    "title": "HTML & CSS modernes",
+    "description": "Créez de magnifiques sites responsive avec les meilleures pratiques 2025.",
+    "language": "web",
+    "level": "beginner",
+    "chapters": ["HTML5 sémantique", "Sélecteurs CSS avancés", "Box model", "Flexbox", "CSS Grid", "Responsive design", "Animations CSS"]
+  },
+  {
+    "id": 9,
+    "title": "Tailwind CSS de A à Z",
+    "description": "Maîtrisez le framework utility-first le plus populaire du moment.",
+    "language": "web",
+    "level": "beginner",
+    "chapters": ["Installation", "Classes utilitaires", "Responsive", "Dark mode", "Plugins", "Personnalisation", "Projets réels"]
+  },
+  {
+    "id": 10,
+    "title": "JavaScript ES6+",
+    "description": "Toutes les nouveautés modernes de JavaScript que vous devez connaître.",
+    "language": "web",
+    "level": "intermediate",
+    "chapters": ["let/const & arrow functions", "Destructuring", "Spread/Rest", "Modules ES", "Async/await", "Optional chaining"]
+  },
+  {
+    "id": 11,
+    "title": "JavaScript avancé",
+    "description": "Closures, this, prototypage, événements… devenez expert JS.",
+    "language": "web",
+    "level": "advanced",
+    "chapters": ["Closures approfondies", "Contexte this", "Prototypal inheritance", "Event loop", "Proxy & Reflect", "Performance JS"]
+  },
+  {
+    "id": 12,
+    "title": "React.js débutant",
+    "description": "Créez vos premières applications avec le framework le plus demandé.",
+    "language": "web",
+    "level": "intermediate",
+    "chapters": ["JSX", "Components", "Props & State", "Hooks (useState, useEffect)", "Routing avec React Router", "Premier projet"]
+  },
+  {
+    "id": 13,
+    "title": "Node.js & Express",
+    "description": "Backend JavaScript : API REST, authentification, déploiement.",
+    "language": "web",
+    "level": "intermediate",
+    "chapters": ["Introduction Node", "NPM & modules", "Express basics", "Routes & middleware", "MongoDB/Mongoose", "JWT auth", "Déploiement"]
+  },
+  {
+    "id": 14,
+    "title": "Git & GitHub",
+    "description": "Maîtrisez le contrôle de version et la collaboration.",
+    "language": "c",
+    "level": "beginner",
+    "chapters": ["Concepts de base", "Commit, branch, merge", "GitHub & Pull Requests", "Résolution de conflits", "Git workflow"]
+  },
+  {
+    "id": 15,
+    "title": "Linux & ligne de commande",
+    "description": "Devenez à l’aise avec le terminal et les commandes essentielles.",
+    "language": "c",
+    "level": "beginner",
+    "chapters": ["Navigation", "Fichiers & permissions", "Processus", "Redirections & pipes", "Scripts bash simples"]
+  },
+  {
+    "id": 16,
+    "title": "Bases de données SQL",
+    "description": "MySQL / PostgreSQL : requêtes, jointures, index.",
+    "language": "python",
+    "level": "intermediate",
+    "chapters": ["Modèle relationnel", "SELECT & filtres", "Jointures", "Sous-requêtes", "Index & optimisation", "Transactions"]
+  },
+  {
+    "id": 17,
+    "title": "Docker pour développeurs",
+    "description": "Conteneurisez vos applications facilement.",
+    "language": "web",
+    "level": "intermediate",
+    "chapters": ["Concepts Docker", "Dockerfile", "Images & containers", "Volumes", "Docker Compose", "Bonnes pratiques"]
+  },
+  {
+    "id": 18,
+    "title": "Algorithmique & complexité",
+    "description": "Tri, recherche, récursivité, structures classiques.",
+    "language": "c",
+    "level": "intermediate",
+    "chapters": ["Notions de complexité", "Tri (bubble, quick, merge)", "Recherche", "Récursivité", "Problèmes classiques"]
+  },
+  {
+    "id": 19,
+    "title": "Sécurité web",
+    "description": "Protégez vos applications des attaques courantes.",
+    "language": "web",
+    "level": "intermediate",
+    "chapters": ["XSS", "CSRF", "SQL injection", "CORS", "HTTPS", "Bonnes pratiques 2025"]
+  },
+  {
+    "id": 20,
+    "title": "TypeScript débutant",
+    "description": "Ajoutez du typage statique à votre JavaScript.",
+    "language": "web",
+    "level": "intermediate",
+    "chapters": ["Pourquoi TypeScript", "Types de base", "Interfaces", "Classes", "Generics", "Intégration React"]
+  },
+  {
+    "id": 21,
+    "title": "Flutter & Dart",
+    "description": "Développez des apps mobiles magnifiques pour iOS & Android.",
+    "language": "web",
+    "level": "intermediate",
+    "chapters": ["Dart basics", "Widgets", "State management", "Navigation", "API calls", "Déploiement stores"]
+  },
+  {
+    "id": 22,
+    "title": "Figma pour développeurs",
+    "description": "Comprenez les maquettes et exportez proprement.",
+    "language": "web",
+    "level": "beginner",
+    "chapters": ["Interface Figma", "Components", "Auto-layout", "Export assets", "Dev mode"]
+  },
+  {
+    "id": 23,
+    "title": "Tests automatisés (Jest & Cypress)",
+    "description": "Écrivez des tests fiables pour vos applications.",
+    "language": "web",
+    "level": "intermediate",
+    "chapters": ["Tests unitaires avec Jest", "Mocking", "Tests E2E Cypress", "CI/CD basics"]
+  },
+  {
+    "id": 24,
+    "title": "Portfolio développeur pro",
+    "description": "Créez un portfolio qui fait la différence en 2025.",
+    "language": "web",
+    "level": "beginner",
+    "chapters": ["Choix du design", "Projets à mettre", "SEO & performances", "Déploiement gratuit", "CV intégré"]
+  }
+]

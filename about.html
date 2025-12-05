@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À propos - Cours Code</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Specific styles for About Page content */
+    .about-section {
+      background: var(--glass-bg);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 3rem;
+      margin-bottom: 3rem;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+    }
+    .about-header { text-align: center; margin-bottom: 3rem; }
+    .about-header h2 { font-size: 2.5rem; font-weight: 800; margin-bottom: 1rem; color: var(--text); }
+    .about-header p { color: var(--gray); font-size: 1.1rem; max-width: 600px; margin: 0 auto; }
+
+    .org-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .org-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      transition: var(--transition);
+    }
+    .org-card:hover { transform: translateY(-5px); border-color: var(--accent); }
+    .org-icon { font-size: 3rem; margin-bottom: 1rem; display: block; }
+    .org-title { font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--text); }
+    .org-desc { color: var(--gray); line-height: 1.6; }
+    
+    .team-highlight {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+    .back-link {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      color: var(--gray); text-decoration: none; font-weight: 600;
+      margin-bottom: 2rem; transition: var(--transition);
+    }
+    .back-link:hover { color: var(--accent); transform: translateX(-5px); }
+  </style>
+</head>
+<body>
+  
+  <header class="header container">
+    <div class="header-left">
+      <div class="logo-icon">C</div>
+      <h1>Cours Code</h1>
+    </div>
+    <div class="header-right">
+      <button id="themeToggle" aria-label="Changer thème" class="theme-btn">
+        <span class="icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <a href="index.html" class="back-link">← Retour aux cours</a>
+
+    <section class="about-section">
+      <div class="about-header">
+        <h2>Notre Mission</h2>
+        <p>Rendre l'apprentissage du développement accessible, moderne et gratuit pour tous les étudiants de Marrakech et d'ailleurs.</p>
+      </div>
+
+      <div class="org-grid">
+        <!-- IT Info Group -->
+        <article class="org-card">
+          <span class="org-icon">💻</span>
+          <h3 class="org-title">Group IT Info</h3>
+          <p class="org-desc">
+            Une communauté dynamique d'étudiants passionnés par l'informatique. Nous organisons des workshops, des hackathons et partageons des ressources pour aider chacun à progresser dans le monde du code.
+          </p>
+        </article>
+
+        <!-- FSSM -->
+        <article class="org-card">
+          <span class="org-icon">🎓</span>
+          <h3 class="org-title">Université FSSM</h3>
+          <p class="org-desc">
+            La Faculté des Sciences Semlalia Marrakech (Université Cadi Ayyad) est notre maison. Elle forme depuis des décennies l'élite scientifique de la région dans un cadre propice à l'innovation et à la recherche.
+          </p>
+        </article>
+      </div>
+
+      <div class="team-highlight">
+        <h3 class="org-title">L'équipe</h3>
+        <p class="org-desc">
+          Ce projet est maintenu par les membres du Group IT Info. Nous croyons en l'Open Source et au partage de connaissances.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-col">
+        <h3>Cours Code</h3>
+        <p>La plateforme moderne pour apprendre le développement, du C au Web en passant par Python.</p>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Liens utiles</h4>
+        <ul class="footer-links">
+          <li><a href="about.html" style="color:var(--accent);">À propos</a></li>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Réseaux</h4>
+        <div class="social-links">
+          <a href="#" class="social-link">𝕏</a>
+          <a href="#" class="social-link">GH</a>
+          <a href="#" class="social-link">DS</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2025</span> Cours Code. Fait avec passion.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
